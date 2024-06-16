@@ -19,16 +19,16 @@ Em sistemas baseados no Debian, podem ser instalados com o seguinte comando:
 ### Compilar
 Este algoritmos ja possui uma versao compilada que se encontra no diretorio `/builds`.
 
-Mas caso deseje compilar o codigo donte utilize este comando a partir da raiz do projeto:
+Mas caso deseje compilar o codigo onte utilize este comando a partir da raiz do projeto:
 
 `mpicc src/main.c -o builds/main`
 
 ### Executando
-Este algoritmo espera receber um tokem como argumento, ou seja quando for executar voce deve tambem adicionar um token numerico de tipo `INT` ao comando, a partir da raiz do projeto esta e a sintaxe:
+Este algoritmo espera receber um token como argumento, ou seja quando for executar voce deve tambem adicionar um token numerico de tipo `INT` ao comando, a partir da raiz do projeto esta e a sintaxe:
 
 `mpirun -np $PROCESSOS build/main $TOKEN`
 
-Ou seja para executar este algoritmo com 4 processos/nucleos e um tokem de numero 1000 o comando ficaria:
+Ou seja para executar este algoritmo com 4 processos/nucleos e um token de numero 1000 o comando ficaria:
 
 `mpirun -np 4 builds/main 1000`
 
