@@ -19,7 +19,7 @@ Em sistemas baseados no Debian, podem ser instalados com o seguinte comando:
 ### Compilar
 Este algoritmos ja possui uma versao compilada que se encontra no diretorio `/builds`.
 
-Mas caso deseje compilar o codigo onte utilize este comando a partir da raiz do projeto:
+Mas caso deseje compilar o codigo fonte utilize este comando a partir da raiz do projeto:
 
 `mpicc src/main.c -o builds/main`
 
