@@ -11,7 +11,7 @@ Para compilar e executar este projeto e necessario ter os seguintes pacotes:
 * openmpi-bin 
 * libopenmpi-dev
 
-Em sistemas baseados no Debian, podem ser instalados com o sewguinte comando:
+Em sistemas baseados no Debian, podem ser instalados com o seguinte comando:
 
 `sudo apt update && sudo apt install openmpi-bin libopenmpi-dev -y`
 
